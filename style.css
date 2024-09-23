@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     font-size: 12pt;
-    background-color: blue;
+    background-color: #b6fc03;
     color: red; 
     margin: 15px; 
 }
@@ -10,7 +10,7 @@ body {
 .container {
     width: 80%;
     margin: 20px auto;
-    background-color: #ffffff; 
+    background-color: #fcbe03; 
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -47,7 +47,7 @@ a:visited {
 }
 
 a:hover {
-    text-decoration: underline; /* Underline on hover */
+    text-decoration: underline;
 }
 
 a:active {
