@@ -100,7 +100,6 @@ nav {
     cursor: pointer;
 }
 
-/* Hover Effects for Navigation Items */
 .nav-item a:hover, .dropdown:hover {
     background-color: #004d40;
 }
@@ -108,7 +107,7 @@ nav {
 .dropdown-menu {
     display: none;
     position: absolute;
-    top: 35px; /* Adjust based on nav-item height */
+    top: 35px; 
     left: 0;
     background-color: #004d40;
     list-style: none;
@@ -166,7 +165,7 @@ body.enlarged-image {
     cursor: pointer;
     font-size: 1em;
     transition: background-color 0.3s;
-    margin-bottom: 15px; /* Adds space below the button */
+    margin-bottom: 15px; 
 }
 
 #nameButton:hover {
