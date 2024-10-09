@@ -6,9 +6,9 @@ document.addEventListener('DOMContentLoaded', () => {
     nameButton.addEventListener('click', () => {
         const userName = prompt("Please enter your name:");
         if (userName) {
-            displayName.textContent = `Hello, ${userName}! Welcome to my website.`;
+            displayName.textContent = `Hello, ${userName}! My name is Sina! Welcome to my website.`;
         } else {
-            displayName.textContent = "Hello! Welcome to my website.";
+            displayName.textContent = "Hello! My name is Sina! Welcome to my website.";
         }
     });
 
