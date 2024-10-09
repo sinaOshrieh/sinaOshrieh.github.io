@@ -33,7 +33,7 @@ function enlargeImage() {
     if (img.style.width === "100%") {
         img.style.width = "200px"; 
     } else {
-        img.style.width = "300px"; 
+        img.style.width = "250px"; 
     }
 }
 
