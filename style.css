@@ -100,7 +100,6 @@ nav {
     cursor: pointer;
 }
 
-/* Hover Effects for Navigation Items */
 .nav-item a:hover, .dropdown:hover {
     background-color: #004d40;
 }
@@ -108,7 +107,7 @@ nav {
 .dropdown-menu {
     display: none;
     position: absolute;
-    top: 35px; /* Adjust based on nav-item height */
+    top: 35px;
     left: 0;
     background-color: #004d40;
     list-style: none;
@@ -137,18 +136,6 @@ nav {
     height: auto;
     cursor: pointer;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    border-radius: 10px; 
-}
-
-.enlarged {
-    transform: translate(-50%, -50%) scale(2); 
-    position: fixed; 
-    top: 50%;
-    left: 50%;
-    z-index: 1000;
-    box-shadow: 0 0 20px rgba(0,0,0,0.5);
-    cursor: zoom-out; 
-    border: 5px solid #fff; 
     border-radius: 10px; 
 }
 
