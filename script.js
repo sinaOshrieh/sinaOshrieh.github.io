@@ -23,11 +23,11 @@ document.addEventListener('DOMContentLoaded', () => {
     
     profileImage.addEventListener('click', enlargeImage);
     
-    function enlargeImage() {
+});
+function enlargeImage() {
         if (profileImage.style.width === "100%") {
             profileImage.style.width = "200px"; 
         } else {
             profileImage.style.width = "100%"; 
         }
     }
-});
