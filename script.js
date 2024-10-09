@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-  
     const nameButton = document.getElementById('nameButton');
     const displayName = document.getElementById('displayName');
 
@@ -12,13 +11,10 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    })
-
     const navItems = document.querySelectorAll('.nav-item');
 
     navItems.forEach(item => {
         item.addEventListener('mouseover', () => {
-            
             item.style.backgroundColor = '#00695c'; 
         });
 
@@ -26,7 +22,12 @@ document.addEventListener('DOMContentLoaded', () => {
             item.style.backgroundColor = '';
         });
     });
+
+    // Attach the enlargeImage function to the profile image click event
+    const profileImage = document.getElementById("profileImage");
+    profileImage.addEventListener('click', enlargeImage);
 });
+
 function enlargeImage() {
     var img = document.getElementById("profileImage");
     
