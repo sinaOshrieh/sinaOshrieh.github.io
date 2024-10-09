@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
-function toggleImageSize() {
+function enlargeImage() {
     var img = document.getElementById("profileImage");
     console.log("dsgdsdgs");
     if (img.style.width === "100%") {
