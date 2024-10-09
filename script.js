@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 function toggleImageSize() {
     var img = document.getElementById("profileImage");
-    
+    console.log("dsgdsdgs");
     if (img.style.width === "100%") {
         img.style.width = "200px"; // Shrink the image back to original size
     } else {
