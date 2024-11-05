@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sina Oshrieh - My Personal Website</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-pzjw8f+ua7Kw1TIqgiuzg6gX0N1R9Ok9lw5PZ4um9xZ6x4DdbH9s6TFEl6W9iPQ" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
     <script src="script.js"></script>
 </head>
 <body>
@@ -16,7 +16,7 @@
             
             <li class="nav-item">
                 <span class="dropdown">The Schools I've Attended
-                    <ul class="dropdown-menu">
+                    <ul class="dropdown-menu" style="background-color: #526358;">
                         <li><a href="https://earlhaig.ca/main.php">Earl Haig SS</a></li>
                         <li><a href="https://torontomu.ca">TMU (Ryerson)</a></li>
                     </ul>
@@ -24,9 +24,17 @@
             </li>
             <li class="nav-item">
                 <span class="dropdown">Connect With me
-                    <ul class="dropdown-menu">
+                    <ul class="dropdown-menu" style="background-color: #526358;">
                         <li class="nav-item"><a href="https://www.linkedin.com/in/sina-o-4119b918b/">My Linkedin</a></li>
                         <li><a href="mailto:sina.oshrieh@torontomu.ca">Email Me</a></li>
+                    </ul>
+                </span>
+            </li>
+            <li class="nav-item">
+                <span class="dropdown">My Interests
+                    <ul class="dropdown-menu" style="background-color: #526358;">
+                        <li><a href="interests.html">Entrepreneurship</a></li>
+                        <li><a href="reading.html">Reading</a></li>
                     </ul>
                 </span>
             </li>
@@ -34,11 +42,20 @@
     </nav>
 
     <!-- Main Content -->
-    <div class="container">
+    <div class="my-2 mx-4">
+        <div class="row mx-auto justify-content-center">
+            <img src="public_html/sina-oshrieh.jpeg" alt="My Profile Picture" id="profileImage" class="clickable-image">
+        </div>
+        <div class="row mx-auto justify-content-center">
+            <p class="lead mt-1">Hi! My name is Sina. Welcome to my personal portfolio website!</p>
+        </div>
+
+        <div class="row mx-auto justify-content-center my-2">
+            <p class="lead mt-1">This page gives you a brief overview of my education journey. Use the nav bar to go different pages to learn more about my interests in entrepreneurship and reading</p>
+        </div>
+
         <h1>My Education Journey</h1>
 
-        <button id="nameButton">Enter Your Name</button>
-        <p id="displayName"></p>
 
         <h2>Education</h2>
         <div class="table">
@@ -91,9 +108,6 @@
 
         <p>For more information about my education and career, feel free to connect with me on <a href="https://www.linkedin.com/in/sina-o-4119b918b/" target="_blank">LinkedIn</a>.</p>
 
-        
-        <h2>Please click on my picture! It will be enlarged!</h2>
-        <img src="public_html/sina-oshrieh.jpeg" alt="My Profile Picture" id="profileImage" class="clickable-image" onClick="enlargeImage()">
     </div>
 
 </body>
